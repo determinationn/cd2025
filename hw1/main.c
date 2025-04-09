@@ -256,7 +256,7 @@ void scanTokens(Node* head) {
 }
 
 int main() {
-    Node* head = readFileIntoList("main.c");
+    Node* head = readFileIntoList("test.c");
     if (!head) {
         return 1; 
     }
